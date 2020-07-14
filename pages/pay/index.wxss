@@ -1,1 +1,97 @@
 /* pages/pay/index.wxss */
+/* 地址区 */
+page {
+  padding-bottom: 90rpx;
+}
+.receive_address_row .user_info_row {
+  display: flex;
+  padding: 20rpx;
+}
+.receive_address_row .user_info_row .user_info {
+  flex: 5;
+}
+.receive_address_row .user_info_row .user_phone {
+  flex: 3;
+  text-align: right;
+}
+/* 购物内容 */
+.cart_content {
+  /* 购物车标题 */
+  /* 购物车内商品的列表项 */
+}
+.cart_content .cart_title {
+  padding: 20rpx;
+  font-size: 38rpx;
+  font-weight: 600;
+  color: var(--themeColor);
+  border-top: 10rpx solid #eee;
+  border-bottom: 10rpx solid #eee;
+}
+.cart_content .cart_item {
+  display: flex;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+  /* 购物车商品右侧信息 */
+}
+.cart_content .cart_item .cart_img_wrap {
+  flex: 2;
+}
+.cart_content .cart_item .cart_img_wrap img {
+  width: 80%;
+}
+.cart_content .cart_item .cart_info_wrap {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cart_content .cart_item .cart_info_wrap .info_text {
+  color: #666;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.cart_content .cart_item .cart_info_wrap .info_price_row {
+  display: flex;
+  justify-content: space-between;
+}
+.cart_content .cart_item .cart_info_wrap .info_price_row .info_price {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: var(--themeColor);
+}
+/* 工具栏区域 */
+.foot_tool {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  border-top: 1rpx solid #ccc;
+  display: flex;
+}
+.foot_tool .tool_price_wrap {
+  text-align: right;
+  flex: 5;
+  padding-right: 15rpx;
+}
+.foot_tool .tool_price_wrap .total_price {
+  font-size: 32rpx;
+}
+.foot_tool .tool_price_wrap .total_price .price_text {
+  color: var(--themeColor);
+  font-weight: 600;
+}
+.foot_tool .tool_pay_wrap {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: var(--themeColor);
+  font-size: 34rpx;
+  font-weight: 600;
+}

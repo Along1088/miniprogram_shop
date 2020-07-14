@@ -17,6 +17,7 @@ page {
   justify-content: center;
   align-items: center;
   font-size: 30rpx;
+  color: #666;
 }
 .cates .container .left .active {
   color: var(--themeColor);
@@ -45,4 +46,8 @@ page {
 }
 .cates .container .right .goodsGroup .goods_list navigator image {
   width: 50%;
+}
+.cates .container .right .goodsGroup .goods_list navigator text {
+  color: #666;
+  font-size: 24rpx;
 }

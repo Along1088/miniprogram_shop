@@ -1,0 +1,6 @@
+<!--components/upimage/UpImage.wxml-->
+<view class="tool_wrap">
+  <image src="{{src}}" />
+  <icon type="clear" color="red" size="23">
+  </icon>
+</view>

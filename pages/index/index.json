@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "SearchInput": "../../components/SearchInput/index"
+    "SearchInput": "../../components/searchInput"
   },
   "navigationBarTitleText": "购物首页"
 }
